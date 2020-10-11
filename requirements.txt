@@ -1,2 +1,12 @@
 certifi==2020.6.20
 wincertstore==0.2
+
+*----------------------How to run this project on local system--------------------------------*
+First,download the source code then from anaconda prompt make diffrent environment for your project.
+Second,open thr jupyter notebook after activating your envirnoment.
+Then,open the car_price_prediction jupyter notebook file and observe the code that how it predicts the car price.
+Then in any python IDE open app.py file and see its code and also open template/index.html
+After that open  another terminal of anaconda prompt and run command 'python app.py' and wait for sometime to get it executed then
+open the website through its localhost IP address 'http://127.0.0.1:5000'.
+After this insert the values in the fields accordingly and know the price of the car. 
+
