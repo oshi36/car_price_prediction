@@ -8,12 +8,12 @@ from sklearn.preprocessing import StandardScaler
 app = Flask(__name__)
 model = pickle.load(open('random_forest_regression_model.pkl', 'rb'))
 @app.route('/')
-def Home():
+def home():
     return render_template('index.html')
 
 
 standard_to = StandardScaler()
-@app.route("/predict", methods=['POST'])
+@app.route('/predict', methods=['POST'])
 def predict():
     Fuel_Type_Diesel=0
     if request.method == 'POST':
