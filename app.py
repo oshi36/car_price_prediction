@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
-from flask.ext.jsonpify import jsonify
-import requests
+#from flask.ext.jsonpify import jsonify
+#import requests
 import pickle
 import numpy as np
 import sklearn
